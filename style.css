@@ -3,3 +3,13 @@ body{
   margin-top: 300px;
   text-align: center;
 }
+
+#clock{
+  font-weight: 300;
+  font-size: 120px;
+}
+
+#color{
+  font-size: 1.2em;
+  font-weight: bold;
+}
