@@ -1,15 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
 body{
-  font-family: "Open Sans";
-  margin-top: 300px;
+  font-family: "Nova Mono";
+  margin: 0;
+  height: 100vh;
   text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background ease-in 0.6s;
 }
 
 #clock{
   font-weight: 300;
-  font-size: 120px;
+  font-size: 10em;
+  margin: 0;
+
 }
 
 #color{
   font-size: 1.2em;
   font-weight: bold;
+  font-weight: 70;
+
+}
+@media only screen and (max-width: 768px) {
+  body{
+    font-size: 2vw;
+  }
+  #color{
+    font-size: 18px;
+  }
 }
